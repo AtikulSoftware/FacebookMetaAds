@@ -17,6 +17,10 @@ FacebookMetaAds Library
 	        implementation 'com.github.AtikulSoftware:FacebookMetaAds:1.0.0'
 	}
   ```
+  > Important : If show any Worning you have to add this line in gradle.properties
+  ```
+  android.enableJetifier=true
+  ```
   
   > Step 3. Banner Ads Layout
   ```

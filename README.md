@@ -3,6 +3,13 @@ FacebookMetaAds Library
 > How to Use Facebook / Meta Audience Network Ads Implantation 2023 || Facebook Banner And Interstitial Ads </br>
 Video - https://youtu.be/MvUHSKD4c_Q
 
+> #FacebookMetaAds proguard-rulse.pro
+```
+#FacebookMetaAds proguard-rulse.pro
+-keep class com.atikulsoftware.metaadslibrary.MetaAds.*
+-keep class com.atikulsoftware.metaadslibrary.BuildConfig
+-keep class com.atikulsoftware.metaadslibrary.R
+```
 
 > Step 1. Add the JitPack repository to your build file
 
